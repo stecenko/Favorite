@@ -1,0 +1,39 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+ a{ color: #fff;}
+ a:hover{ color: #bfd76d;}
+#menusys_mega .subwrap-inner {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 5px solid #BFD76D;
+    border-top: 5px solid #BFD76D;
+    box-shadow: 0 2px 2px #222;
+	 color: #fff;
+}
+#menusys_mega li.hover ul.mega-ul a .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a.active .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a.focus .menu-title{
+	color: #fff ;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable_menu ul li {
+    border-bottom: 1px solid #515151;
+}
+#menusys_mega .megacol ul.mega-ul li {
+	 border-top: 1px solid #515151;
+
+}
+#menusys_mega .menusub_mega .mega-group {
+    background: url(../../images/border-title.png) repeat-x scroll left bottom;
+}
+#menusys_mega .menusub_mega .mega-group a .menu-title {
+ color: #fff;}
+ #menusys_mega > li {
+    background: url(../../images/top-vertical.png) no-repeat scroll right 50%;
+}

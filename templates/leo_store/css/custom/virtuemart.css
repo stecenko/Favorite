@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+#facebox a {
+ color: #333;}
+.browse-view .row .cat-product-details .product-details,
+.product span.addtocart-button input.addtocart-button, 
+.product span.addtocart-button input.notify-button,
+.vmCartModule .show_cart a  {
+    display: inline-block;
+	  text-align: center;
+  font-family: 'DroidSansRegular';font-size: 12px;
+   text-transform: uppercase;
+    color: #333;
+	 text-shadow: 0px 1px 1px #fbfcf6;
+	  font-weight: bold;
+  }
+.vmCartModule .vm_cart_products .product_row {
+ background: url(../../images/default/icon-li-cart.png) left 50% scroll no-repeat;
+  padding: 5px 0 5px 12px;}
+ .vmCartModule .vm_cart_products .prices{
+  padding: 5px 0;}
+  
+.vmCartModule .total_products {
+ background: #f5f5f5;
+  border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+	 padding: 5px 0 5px 12px;
+	 }
+.vmCartModule .total {
+padding: 5px 0;}
+.browse-view .row .cat-product-details .product-details,
+.product span.addtocart-button input.addtocart-button, 
+.product span.addtocart-button input.notify-button,
+.vmCartModule .show_cart a {
+ background: url(../../images/default/bg-input.png) no-repeat left top scroll;
+   height: 34px;
+    line-height: 25px;
+	 width:107px;
+	  margin-top: 10px ;
+}
+.browse-view .row .cat-product-details .product-details:hover,
+.product span.addtocart-button input.addtocart-button:hover, 
+  .product span.addtocart-button input.notify-button:hover,
+.vmCartModule .show_cart a:hover {
+ background: url(../../images/default/bg-input.png) no-repeat left bottom scroll;
+ color: #333;
+ }
+   /*virtuemart----------*/
+   /*category module*/
+.vmgroup .spacer {
+ border: 1px solid #ddd;
+  padding: 3px 3px 10px;
+   margin: 0 10px 18px;
+	 position: relative;}
+.addtocart-area .product {
+ text-align: left;
+  padding: 0 10px;
+  }
+    .vmgroup .spacer a img {
+	 margin-bottom: 10px;}
+	
+   .vmgroup .spacer a{ font-weight: bold; font-size: 14px;}
+    .vmgroup .spacer .product_s_title {
+	 padding: 0 5px;}
+   .vmgroup .spacer .product_s_desc {
+    text-align: justify;
+	 padding: 10px 5px;}
+
+ .vmgroup .spacer .cart-price {
+  text-align: left;
+   position: absolute;
+    bottom: 18px;
+	 font-weight: bold;
+	  left: 10px;
+	  }
+ .product span.quantity-box {
+  float: none;}
+ .product span.addtocart-button { float: right;
+ margin: 0;
+  width:auto;
+   }
+  .product span.addtocart-button input.addtocart-button, 
+  .product span.addtocart-button input.notify-button {
+    border: none;
+	 letter-spacing:0;
+	  padding-bottom:10px;
+    }
+	/*category component*/
+.image{
+ width:30%;
+ }
+ .image-inner{}	
+.cat-info-left {
+ width: 45%;
+  float:left;
+   margin: 20px 24px 0;}
+  .cat-info-right {
+  width:107px;
+	 margin-top: 20px;
+	  margin-right: 12px;
+	   float:left;
+	}
+	.browse-view .row { margin-bottom: 20px;}
+	.browse-view .row h2 a { font-size:14px;}
+	.category-view .row .category .spacer, .featured-view .spacer, .latest-view .spacer, .topten-view .spacer, .related-products-view .spacer, .browse-view .row .product .spacer { padding: 3px;  margin: 0 4px;
+	 border: 1px solid #ddd;}
+	 
+  .image img.browseProductImage{
+    border: none ;
+	padding:0;}
+	.browse-view .row .product .spacer img, .related-products-view .row .product .spacer img{
+	 max-width:100%;}
+	  .browse-view .product-price {
+	   margin-bottom: 5px;}
+	 .browse-view .product-price span.PricesalesPrice {
+	  font-weight: bold;
+	   font-size:13px!important;
+	    color: #111!important;}
+		.browse-view .row .cat-product-details .product-details{
+		 border: none;
+		  padding:0;
+		   background-position: left;
+		    background-position: bottom;
+		  }
+		  .browse-view .row .cat-product-details .product-details:hover{
+		
+		   background-position: left;
+		    background-position: top;
+		  }
+		  .vendor-store-desc, .category-view, .featured-view, .latest-view, .topten-view, .related-products-view, .browse-view, .order-view {
+		   overflow: hidden;}
+		   .productdetails-view h1,
+		   .browse-view h1 {
+    background: url(../../images/default/border-title.png) repeat-x scroll left bottom ;
+    color: #000000;
+    font: 24px 'Lobster13Regular';
+    margin: 0 0 15px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+.productdetails-view .PricesalesPrice {
+ display: inline-block!important;}
+ .productdetails-view .product-price {
+    font-size: 24px;
+    font-weight: bold;
+	 margin: 15px 0 20px;
+	  color: #BFD76D;
+}
+.productdetails-view .addtocart-bar {
+    margin: 0;
+    padding: 0;
+}
+.productdetails-view .product span.addtocart-button input.addtocart-button {
+ margin-top: 0;
+ }
+.productdetails-view  .customer-reviews h4,
+.productdetails-view .product-description span.title {
+    background: url(../../images/default/border-title.png) repeat-x scroll left bottom ;
+    color: #000000;
+    font: 18px 'Lobster13Regular';
+    margin: 0 0 15px;
+    padding-bottom: 5px;
+    padding-left: 0;
+	 border-bottom: none;
+}
+.productdetails-view .product-neighbours {     
+	background: none repeat scroll 0 0 #FFFFD9;
+    border: 1px solid #FFE076;
+    border-radius: 3px 3px 3px 3px;
+	 padding: 10px;
+	  margin: 20px 0;
+	  }
+	.productdetails-view .product-neighbours a{
+	 color: #333;}  
+	.product-neighbours a.next-page{ color: #333;}  
+	.vmCartModule .show_cart a ,
+	.cat-product-details a.product-details {
+    line-height: 32px !important;
+}
+.additional-images img {
+ width: 100px;
+  margin: 0 7px;}
+	  
+	  
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+		/*virtuemart*/
+		.product span.addtocart-button{
+		  float: left;
+		  }
+		   .vmgroup .spacer .cart-price {
+			position: relative;
+			bottom: 0;}
+       		
+	}
+	 @media only screen and  (max-width: 767px) {
+		/*virtuemart*/
+		 .product span.addtocart-button{
+		  float: left;
+		  }
+		 .vmgroup .spacer .cart-price {
+			position: relative;
+			bottom: 0;}
+		
+	 }	
+	  @media only screen and (min-width: 600px)  and  (max-width: 767px) {
+		 .product span.addtocart-button{
+		  float: left;
+		  }
+		 .vmgroup .spacer .cart-price {
+			position: relative;
+			 bottom: 0;}
+			}
+	 @media only screen and (min-width: 480px)  and  (max-width: 600px) {}  
+	 @media only screen and (min-width: 320px)  and (max-width: 480px) {
+	 .width33{
+	  width:50%!important;
+	  }
+	 }
+	 @media only screen and (min-width : 200px) and (max-width: 320px) {
+	  .width33{
+	  width:100%!important;
+	  }
+	 }
+	 
+	 @media only screen and (max-width : 200px) {
+	  .width33{
+	  width:100%!important;
+	  }
+	  }

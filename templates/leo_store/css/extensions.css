@@ -1,0 +1,437 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+
+
+
+/* leo Highslide--------------*/
+div.moduletable .highslide-gallery ul {
+overflow: hidden;
+margin: 10px -3px;
+}
+div.moduletable .highslide img {
+	border:none;
+}
+div.moduletable .highslide-gallery ul a {
+	padding-right:0 !important;
+}
+div.moduletable .highslide-gallery ul li {
+	width:auto;
+	height:auto;
+	border:1px dotted #c9c9c9;
+	margin:0 3px 15px;
+	padding: 3px;
+	background: none;
+}
+/* leo Contact Pro--------------*/
+div.jvformcontact {
+	width:100%;
+	margin:15px 0 0;
+	display: inline-block;
+}
+div.jvformcontact #myForm input, div.jvformcontact #myForm textarea, div.jvformcontact #myForm select {
+	border:none;
+	height:auto;
+}
+div.leo-field {
+	overflow: hidden;
+	margin-bottom:7px;
+}
+/* -------------------------------
+	Module Class
+----------------------------------*/
+a.moduleItemReadMore {
+	padding: 0 5px 0 10px;
+	color: #1e6d9d;
+	text-transform: uppercase;
+	border-bottom: 1px solid #1e6d9d;
+	cursor: pointer;
+	background: url(../images/default/bg-readmore.png) no-repeat 0 1px;
+	font-family: 'DroidSansRegular';
+	font-size: 13px;
+}
+/* slideshow */
+
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description {
+	width: 36%;
+	padding: 10px 0 0 10px;
+	left: inherit;
+	 right: 0;
+	 top: 0;
+	  left: inherit;
+	bottom:inherit;
+	overflow: hidden;
+	background: url(../images/default/bg-desc.png) repeat left top scroll;
+}
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-title a {
+	line-height:1.6em;
+	font: normal 24px 'Lobster13Regular';
+	margin: 0;
+	padding: 25px 30px 0;
+	text-shadow: none;
+	color:#e6e6e6!important;
+	background:none!important;
+	display: inline-block;
+}
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description .lof-desc {
+	margin-top:5px;
+	background:none;
+	padding: 5px 30px 15px;
+	color:#e6e6e6;
+	font-size:13px;
+}
+#leo-slideshow .lof-slnavslide .lof-previous,  #leo-slideshow .lof-slnavslide .lof-next {
+	width:21px;
+	height: 41px;
+}
+#leo-slideshow .lof-slnavslide .lof-previous {
+	background: url(../images/default/previous.png) no-repeat scroll 0 0;
+	left: inherit;
+	 right: 2%;
+	top: 58px;
+}
+#leo-slideshow .lof-slnavslide .lof-next {
+	background: url(../images/default/next.png) no-repeat scroll 0 0;
+	right: 2%;
+	top: 15px
+}
+#leo-slideshow .lof-description a.readmore {
+	background: url(../images/default/readmore.png) no-repeat left top scroll;
+	width:116px;
+	height: 37px;
+	line-height: 32px;
+	margin: 20px 30px 40px;
+}
+#leo-slideshow .lof-description a.readmore {
+	display: inline-block;
+	text-align: center;
+	font-family: 'DroidSansRegular';
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 0px 1px 1px #fbfcf6;
+	font-weight: bold;
+}
+/*CONTENT NEWS*/
+.moduletable_latest-news .leomodule {
+ background: url(../images/default/icon-rss.png) no-repeat right 5px scroll;}
+.moduletable_latest-news .lof-categorybox ul {
+	padding: 0 !important;
+}
+ .lof-categorybox .lof-leading ul, .lof-categorybox .lof-leading ul li,
+.moduletable_latest-news .lof-categorybox ul li {
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.lof-categorybox .lof-box-left:hover,
+.moduletable_latest-news .lof-categorybox .lof-box-left:hover {
+	background: none!important;
+}
+.lof-categorybox .lof-item img {
+    background: none!important;
+    border: none!important;
+    margin: 0;
+}
+.lof-categorybox .lof-item:hover img {
+    border: none!important;
+}
+.moduletable_latest-news .lof-categorybox .lof-leading ul li h4 {
+	margin: 5px 0;
+}
+.moduletable_latest-news .lof-categorybox .lof-leading ul li .lof-extrainfo {
+	font-family: 11px;
+	text-transform: uppercase;
+	color: #999;
+}
+.moduletable_latest-news .lof-categorybox .lof-primary ul li {
+	background: url(../images/default/icon-li.png) no-repeat left 50% scroll!important;
+	padding-left: 20px!important;
+	line-height: 23px;
+}
+.moduletable_latest-news .lof-categorybox .lof-primary ul li h4 a {
+	font-weight: normal;
+	font-size: 12px;
+	color: #111;
+}
+.lof-categorybox .lof-box-left .lof-leading h4 {
+	line-height: 30px!important;
+}
+.lof-categorybox {
+ background: none !important;}
+/* Lof K2 Scroller*/
+#leo-showcase-bottom .lof-sliding .lof-next, #leo-showcase-bottom .lof-sliding .lof-previous{
+	position:absolute;
+	z-index:10;
+	top:0;
+	height:80px;
+	width:23px;	
+	display:block;
+	text-indent:9999px;
+	overflow:hidden;
+}
+#leo-showcase-bottom .lof-sliding .lof-next{	background:url(../images/default/arrow-right.png)  no-repeat 8px 50% scroll; right:-24px; }
+#leo-showcase-bottom .lof-sliding .lof-next:hover{ background:url(../images/default/arrow-right.png) no-repeat  8px 50% scroll ; }
+#leo-showcase-bottom .lof-sliding .lof-previous{ background:url(../images/default/arrow-left.png)  no-repeat 8px 50% scroll; left:-22px; }
+#leo-showcase-bottom .lof-sliding .lof-previous:hover{ background:url(../images/default/arrow-left.png)  no-repeat  8px 50% scroll; }
+#leo-showcase-bottom .lof-sliding .lof-image {
+    background: none;
+}
+#leo-showcase-bottom .lof-sliding .lof-inner {
+    background: none;
+    border-radius: 0;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+}
+#leo-showcase-bottom .lof-sliding .lof-inner:hover {
+    background: none;
+    box-shadow: none;
+}
+#leo-showcase-bottom .lof-sliding {
+ background: #fff;
+  border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+/* artsexylightbox*/
+.artsexylightbox_container img.artsexylightbox {
+ margin: 0;
+  border: none;
+  }
+/* CALL HELP*/
+.custom_call-help {
+	background: url(../images/default/icon-call.png) no-repeat left 50% scroll;
+	padding-left: 50px;
+	font-family: "DroidSansRegular";
+	font-size: 13px;
+}
+.custom_call-help p span.call {
+	font-family: "Lobster13Regular";
+	font-size: 24px;
+	padding: 8px 0;
+	display: inline-block;
+}
+/* BREADCRUMBS----------*/
+.breadcrumbs {
+	color: #989898;
+	font-family: "DroidSansRegular";
+	font-size: 11px;
+}
+.breadcrumbs .showHere {
+	background: url(../images/default/bg-showhere.png) repeat left top scroll;
+	border-radius: 2px;
+	border: 1px solid #434343;
+	padding: 2px 4px;
+	margin: 0 3px 0 15px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.breadcrumbs a.pathway {
+	padding: 0 5px;
+	color: #fff;
+}
+/* TABS GK4*/
+.moduletable_tabs {
+	background: #eee;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 4px;
+}
+.moduletable_tabs .gkTabWrap ul.gkTabs {
+	background: none !important;
+	border: none!important;
+	position: relative;
+	top: 1px;
+	z-index: 3;
+	 height: 30px !important;
+}
+.moduletable_tabs .gkTabWrap ul.gkTabs li {
+	border: none !important;
+	  font-weight: normal;
+	   font-size: 13px;
+	   line-height: 30px !important;
+}
+.moduletable_tabs ul.gkTabs li:hover, .moduletable_tabs ul.gkTabs li.active {
+    color: #000000 !important;
+}
+.moduletable_tabs .gkTabWrap ul.gkTabs li:hover, .moduletable_tabs .gkTabWrap ul.gkTabs li.active {
+	border-top: 1px solid #ddd!important;
+	border-left: 1px solid #ddd!important;
+	border-right: 1px solid #ddd!important;
+	border-radius: 3px 3px 0 0;
+}
+.moduletable_tabs .gkTabWrap .gkTabContainer0 {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0 3px 3px 3px;
+	 padding: 0 8px;
+}
+.moduletable_tabs .gkTabWrap .gkTabContainer0 .gkTabItem {
+	padding: 0;
+}
+.moduletable_tabs .lof-categorybox .lof-box-left:hover {
+	background: none;
+}
+.lof-categorybox a,  .lof-categorybox h4 {
+ color: #666!important;}
+/*suffix = list-menu FOR MODULES-------*/
+.moduletable_list-menu {
+	background: #111;
+}
+.moduletable_list-menu .leomodule {
+	background: url(../images/default/bg-menu.png) repeat left top scroll;
+	top: -3px;
+	left: -3px;
+	position: relative;
+}
+.moduletable_list-menu ul {
+	padding: 0!important;
+	margin-top: 5px;
+}
+.moduletable_list-menu ul li {
+	background: url(../images/default/border.png) repeat-x left bottom scroll!important;
+	padding: 5px 10px;
+}
+.moduletable_list-menu ul li a {
+	background: url(../images/default/icon-li.png) no-repeat left 50% scroll;
+	padding-left: 15px;
+	color: #fff;
+}
+.moduletable_list-menu ul li a:hover {
+	color: #bfd76d;
+}
+/*suffix = color*/
+.moduletable_color {
+	background: #ffffd9;
+	color: #666;
+	font-size: 14px;
+	border: 1px solid #ffe076;
+	border-radius: 3px;
+	text-align: center;
+	padding: 10px;
+}
+.moduletable_color .moduletitle {
+	background: none;
+	color: #ee6d12;
+	margin-bottom: 0;
+}
+
+#leo-userbottom1 .moduletable_color {
+ background: url(../images/default/bg-footer.png) repeat left top scroll; 
+ border-left:1px solid #404040;
+  border-right:1px solid #404040;
+   border-bottom:1px solid #404040;
+    border-top:none;
+    border-radius: 0 0 2px 2px;}
+  #leo-userbottom1 .moduletable_color .modulecontent {
+   font-family: 'Lobster13Regular';
+    font-size: 30px;
+	 color: #fff;}
+	     #leo-userbottom1 .moduletable_color .modulecontent p { margin:0 0 10px;
+		 line-height: 30px;
+}
+	
+/*suffix = list-products*/
+.moduletable_list-products .vmgroup_list-products ul {
+ margin: 0;}
+.moduletable_list-products .vmgroup_list-products ul li{
+ padding-bottom: 10px;
+ }
+.moduletable_list-products .vmgroup_list-products ul li img{
+ width: 28%;
+  float:left;
+   padding: 2px ;
+    border: 1px solid #ddd;
+	 margin-right: 10px;
+}
+.moduletable_list-products .vmgroup_list-products ul li a {
+ font-size:11px;
+  font-weight: bold;
+  }
+.moduletable_list-products .product span.addtocart-button {
+ float:left;}
+.moduletable_list-products .product span.addtocart-button input.addtocart-button{
+ background: none!important;
+  font-weight: normal;
+   text-transform: none;
+    text-shadow: none;
+	width: auto;
+	 height: auto;
+	margin-top: 0;
+	 padding: 0;
+	  color: #111;
+	  margin-top: 5px;}
+.moduletable_list-products .product span.quantity-box,
+.moduletable_list-products .product label.quantity_box {
+	  display: none;}
+/*suffix = _menu*/
+.moduletable_menu ul li {
+ background: url(../images/default/icon-li.png) no-repeat scroll left 50% !important;
+    line-height: 25px;
+    padding-left: 20px ;
+}
+#leo-userbottom1 .moduletable_menu ul li a {
+ color: #fff;
+}
+#leo-userbottom1 .moduletable_menu ul li a:hover{
+ color: #bfd76d;
+}
+/* Suffix = _link*/
+.moduletable_link {
+ position: absolute;
+  right: 30px;
+   top: 1px;}
+/*form-tyle*/
+.form-style input.button { color: #333333;
+    display: inline-block;
+    font-family: 'DroidSansRegular';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 1px #FBFCF6;
+    text-transform: uppercase;
+	 padding-bottom:10px;
+}
+.form-style input.inputbox {
+ width: 95%;}
+ /* Login Module ---*/
+
+.login_form label, .login label {
+	text-align: left;
+	width: 100px;
+	 float: left;
+}
+.login-fields {
+    margin: 0 0 10px;
+}
+.login ul li {
+   background: url(../images/default/icon-li.png) no-repeat scroll left 50%;
+    line-height: 23px;
+    padding-left: 20px ;
+}
+/* Suffix = _account */
+ul.menu_account {
+position: absolute;
+ z-index: 20;
+  bottom: -70px;
+   right: 20px;
+   margin: 0;}
+ ul.menu_account li a { color: #bfd76d;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 42px;
+    padding: 0;
+    text-transform: uppercase;}
+/**/
+.moduletable_list-products .quantity-controls,
+.moduletable_list-products .quantity-box,
+#leo-content-left .product .quantity-controls,
+#leo-content-left .product .quantity-box {
+ display: none!important;
+ }

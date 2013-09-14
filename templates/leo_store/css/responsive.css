@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+/* CSS Document */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+	#leo-slideshow .lof-slnavslide .lof-main-wapper {
+		 width: 100%!important;
+		  height: 250px !important;}
+		 #leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-title a {
+	line-height:1.6em;
+	font: normal 18px 'Lobster13Regular';
+	padding: 10px 30px 0 20px!important;
+}
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description .lof-desc {
+	margin-top:5px;
+	background:none;
+	padding: 5px 30px 15px 20px!important;
+	color:#e6e6e6;
+	font-size:11px;
+}
+#leo-showcase-bottom .lof-sliding,
+.lof-sliding .lof-main-wapper,
+.lof-sliding .lof-main-wapper .lof-main-item,
+#leo-showcase-bottom .lof-sliding .lof-image{
+ width: 100% !important;}
+/*K2*/
+span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+       		
+	}
+	
+	 @media only screen and  (max-width: 767px) {
+	 body.fs3{
+	  font-size: 11px;}
+		 #leo-mainmenu{ width:100%; float:none; }
+		#leo-mainmenu #leo-mainmenu-inner{ display:none!important;} 
+		#leo-mainmenu #leo-responsivemenu{ display:block!important; }
+		#leo-slideshow .lof-slnavslide .lof-main-wapper {
+		 width: 100%!important;
+		 height: 220px !important;}
+		  #leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-title a {
+	font: normal 18px 'Lobster13Regular';
+	padding: 10px 30px 0 15px!important;
+}
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description .lof-desc {
+	padding: 5px 30px 15px 15px!important;
+	font-size:11px;
+}
+
+#leo-slideshow .lof-description a.readmore {
+    margin:10px 20px 20px!important;
+}
+#leo-showcase-bottom .lof-sliding,
+.lof-sliding .lof-main-wapper,
+.lof-sliding .lof-main-wapper .lof-main-item,
+#leo-showcase-bottom .lof-sliding .lof-image{
+ width: 100% !important;}
+ /*K2*/
+	span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+	
+	 }
+	 
+	  @media only screen and (min-width: 600px)  and  (max-width: 767px) {
+  body.fs3{
+	  font-size: 11px;}
+	 #leo-usertop1 .leo-usercol{ width:50%!important;}
+	 #leo-userbottom .leo-usercol{   width:50%!important;  }
+	#leo-userbottom1 .leo-usercol  {   width:50%!important;  }
+	#leo-left{ clear:both; width:100%!important; text-align: left;}
+	#leo-content{width: 100%!important;}
+	#leo-right{width: 100%!important;}
+	/* SLIDESHOW */
+	#leo-slideshow .lof-slnavslide .lof-main-wapper {
+		 width: 100%!important; height: 220px !important;
+		 }
+		  #leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-title a {
+	font: normal 18px 'Lobster13Regular';
+	padding: 10px 30px 0 15px!important;
+	font-size:11px;
+}
+#leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description .lof-desc {
+	padding: 5px 30px 15px 15px!important;
+	font-size:11px;
+}
+
+#leo-slideshow .lof-description a.readmore {
+    margin:10px 20px 20px!important;
+}
+#leo-showcase-bottom .lof-sliding,
+.lof-sliding .lof-main-wapper,
+.lof-sliding .lof-main-wapper .lof-main-item,
+#leo-showcase-bottom .lof-sliding .lof-image{
+ width: 100% !important;}
+/*K2*/
+.leoDate > div:first-child{
+ font-size: 30px;
+ }
+ .leoDate > div {
+  font-size: 22px;}
+  span.itemImage img, span.catItemImage img {
+ width: 93%!important;}		  
+ }
+ 
+ @media only screen and (max-width: 600px) {
+
+.billto-shipto .width50{
+	width:100%;
+	margin: 10px 0;
+}
+table.cart-summary tr th {
+ display: none;
+}
+table.cart-summary tr td:before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+    width: 50%;
+	 font-size: 120%;
+}
+table.cart-summary tr {
+ background: #fafafa;
+  margin-bottom: 15px;
+  display: block;
+ }
+table.cart-summary tr td {
+	text-align:right;
+	display: block;
+	min-height: 20px;
+	border-left: none;
+	background: none;
+}
+.cart-view p.width30 {
+	width:100%!important;
+}
+textarea.customer-comment {
+	width: 100%;
+}
+table.shopperInformation td, table.generalUserInfo td, table.user-details td {
+	width: 100%!important;
+	display: inline-block;
+}
+table.cart-summary tr.info{
+ border: 1px solid #ddd;
+}
+#leo-search {
+ display: none;
+}
+}
+ @media only screen and (min-width: 480px)  and  (max-width: 600px) {
+  body.fs3{
+	  font-size: 11px;}
+	  #leo-logo{ display:block; width:100%; clear:both; }
+		#leo-logo a{ margin:0 auto}
+	 #leo-usertop1 .leo-usercol{ width:50%!important;}
+	 #leo-userbottom .leo-usercol{   width:50%!important;  }
+	#leo-userbottom1 .leo-usercol  {   width:50%!important;  }
+	#leo-left{ clear:both; width:100%!important; text-align: left;}
+	#leo-content{width: 100%!important;}
+	#leo-right{width: 100%!important;}
+	#leo-slideshow .lof-slnavslide .lof-main-wapper {
+		 width: 100%!important;
+		 height: 190px !important;}
+		 #leo-slideshow .lof-slnavslide .lof-main-wapper .lof-main-item .lof-description {
+		  display: none;}
+		  #leo-header-top {
+		   display: none!important;}
+	#leo-showcase-bottom .lof-sliding,
+.lof-sliding .lof-main-wapper,
+.lof-sliding .lof-main-wapper .lof-main-item,
+#leo-showcase-bottom .lof-sliding .lof-image{
+ width: 100% !important;}
+/*K2*/
+.leoDate > div:first-child{
+ font-size: 26px;
+ }
+ .leoDate > div {
+  font-size: 20px;}
+   span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+ }
+
+@media only screen and (max-width: 480px) {
+.itemList .itemContainer {
+ width: 100%!important;}
+ .itemRelated, .itemAuthorLatest {
+width:100%!important;
+}
+
+.itemRelated h3, .itemAuthorLatest h3 {
+    font: 18px/24px 'Arial';
+}
+.itemCommentsForm > h3 {
+    font-size: 24px;
+    line-height: 24px;
+}
+.leo-comment-right,
+.leo-comment-left {
+	width: 98%!important;
+}
+.leoCommentsCount,
+.itemComments ul.itemCommentsList li{
+ margin: 0 !important;
+ }
+}
+ @media only screen and (min-width: 320px)  and (max-width: 480px) {
+	body.fs3{width: 100%;}
+	#page-container{overflow: auto;}
+	#leo-page .leo-container{ width:100%; }
+	#leo-logo{ display:block; width:100%; clear:both; }
+		#leo-logo a{ margin:0 auto}
+		#comboxrpmenu {
+		width:75%!important;
+		}
+	#leo-left{ clear:both; width:100%!important;text-align: left;}
+	#leo-right{ clear:both; width:100%!important;}
+	#leo-content{width: 100%!important;}
+	
+	.leo-container{ overflow:hidden}	
+	/* Self Clearing Goodness */
+
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+	
+	#leo-slideshow{ display: none!important;}
+	 #leo-usertop1 .leo-usercol{ width:50%!important;}
+	 #leo-userbottom .leo-usercol{   width:50%!important; }
+	#leo-userbottom1 .leo-usercol  {   width:50%!important;  }
+	 #leo-header-top {
+		   display: none!important;}
+	#leo-showcase-bottom .lof-sliding{ display: none;}
+	/*K2*/
+ .leoDate{
+   display: none;}
+.leoItemBlock, .itemCommentsForm {
+ margin: 0!important;}
+  span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 200px) and (max-width: 320px) {
+	body.fs3{width: 100%;}
+	#leo-page .leo-container{ width:100%; } 
+	 #leo-logo{ display:block; width:100%; clear:both; }
+		#leo-logo a{ margin:0 auto}
+		#comboxrpmenu {
+		width:100%!important;
+		}
+	#leo-left{ clear:both; width:100%!important;text-align: left;}
+	#leo-right{ clear:both; width:100%!important;}
+	#leo-content{width: 100%!important;}
+	.leo-container{ overflow:hidden}	
+	/* Self Clearing Goodness */
+
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+	#leo-slideshow{ display: none!important;}
+	#leo-usertop1 .leo-usercol  { display: none!important;  }
+	#leo-userbottom .leo-usercol{ display: none!important; }
+	#leo-userbottom1 .leo-usercol  {  display: none!important;  }
+	 #leo-header-top {
+		   display: none!important;}
+		   #leo-showcase-bottom .lof-sliding{ display: none;}
+	/*K2*/
+.itemCommentsForm,
+ .leoDate{
+   display: none;}
+.leoItemBlock, .itemCommentsForm {
+ margin: 0!important;}
+  span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+}
+@media only screen and (max-width : 200px) {
+	body.fs3{width: 200px!important;}
+	#leo-page .leo-container{ width:200px!important; } 
+	 #leo-logo{ display:block; width:100%; clear:both; }
+		#leo-logo a{ margin:0 auto}
+		#comboxrpmenu {
+		width:100%!important;
+		}
+	#leo-left{ clear:both; width:100%!important;text-align: left;}
+	#leo-right{ clear:both; width:100%!important;}
+	#leo-content{width: 100%!important;}
+	
+	.leo-container{ overflow:hidden}	
+	/* Self Clearing Goodness */
+
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+	
+	#leo-slideshow { display: none!important;}
+	#leo-usertop1 .leo-usercol  { display: none!important;  }
+	#leo-userbottom .leo-usercol{ display: none!important; }
+	#leo-userbottom1 .leo-usercol  {  display: none!important;  }
+	 #leo-header-top {
+		   display: none!important;}
+		   #leo-showcase-bottom .lof-sliding{ display: none;}
+	/*K2*/
+
+ .leoDate{
+   display: none;}
+.leoItemBlock,.itemCommentsForm {
+ margin: 0!important;}
+  span.itemImage img, span.catItemImage img {
+ width: 93%!important;}
+}

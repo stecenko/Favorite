@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.browse-view .row .cat-product-details .product-details,
+.product span.addtocart-button input.addtocart-button, 
+.product span.addtocart-button input.notify-button,
+.vmCartModule .show_cart a {
+ background: url(../../images/bg-input.png) no-repeat left top scroll;
+   color: #333;
+}
+.browse-view .row .cat-product-details .product-details:hover,
+.product span.addtocart-button input.addtocart-button:hover, 
+  .product span.addtocart-button input.notify-button:hover,
+.vmCartModule .show_cart a:hover {
+ background: url(../../images/bg-input.png) no-repeat left bottom scroll;
+ color: #333;
+ }
+  .vmCartModule .show_cart a {
+  line-height: 32px;}
+.vmCartModule .vm_cart_products .product_row {
+ background: url(../../images/icon-li-cart.png) left 50% scroll no-repeat;
+}
+
+  
+.vmCartModule .total_products {
+ background: #f5f5f5;
+  border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+	 padding: 5px 0 5px 12px;
+	 }
+   /*virtuemart----------*/
+   /*category module*/
+.vmgroup .spacer {
+ border: 1px solid #333;
+ background: #222;}
+ .vmgroup .spacer a {
+   color: #fff;
+}
+.vmgroup .spacer .cart-price {
+ color: #fff;}
+	/*category component*/
+	   .productdetails-view h1,
+	 .browse-view h1 {
+    background: url(../../images/border-title.png) repeat-x scroll left bottom ;
+    color: #fff;
+}
+
+ .productdetails-view .product-price {
+	  color: #ec8c83;
+}
+
+.productdetails-view  .customer-reviews h4,
+.productdetails-view .product-description span.title {
+    background: url(../../images/border-title.png) repeat-x scroll left bottom ;
+    color: #fff;
+}
+.productdetails-view .product-neighbours {     
+	background: none repeat scroll 0 0 #FFFFD9;
+    border: 1px solid #FFE076;
+    
+	  }
+	  .vmCartModule .total_products {
+    background: none repeat scroll 0 0 #232323;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+.vmCartModule .total_products,
+.vmCartModule .total {
+    color: #FFFFFF;
+}
+.general-bg, input.custom-attribute, input.quantity-input, button.default {
+ background: #222 !important;
+  border: 1px solid #333 !important;
+  box-shadow: none!important;
+  }
+  .category-view .row .category .spacer, .featured-view .spacer, .latest-view .spacer, .topten-view .spacer, .related-products-view .spacer, .browse-view .row .product .spacer{
+  border: 1px solid #333;}

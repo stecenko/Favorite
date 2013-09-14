@@ -1,0 +1,27 @@
+/*
+#------------------------------------------------------------------------
+# The real design - December 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+/*
+ * HEADING STYLE
+ */
+#page-container input[type="password"],#page-container input[type="text"],#page-container input[type="email"],#page-container input[type="www"],#page-container input[type="tel"],#page-container input[type="url"],#page-container input[type="search"],#page-container select,#page-container .inputbox {
+  background: #222;
+  border: 1px solid #333;
+  box-shadow: none;
+   color: #ddd;
+  }
+  p.readmore a:hover, a.readon:hover, a.k2ReadMore:hover {
+   color: #333;}
+ .leoDate {
+    background: url(../images/bg-menu.png) repeat scroll left top ;
+ 
+}
+.blog .items-row .item, .blog .items-leading > div, .blog-featured .items-row .item, .blog-featured .items-leading > div {
+ border-bottom: 1px dotted #333;
+}

@@ -1,0 +1,77 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+ a{ color: #fff;}
+ a:hover{ color: #ec8c83;}
+#menusys_mega .subwrap-inner {
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 5px solid #b0392e;
+    border-top: 5px solid #b0392e;
+    box-shadow: 0 2px 2px #222;
+	 color: #fff;
+}
+#menusys_mega li.hover ul.mega-ul a .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a.active .menu-title,
+#menusys_mega li.hasChild ul.mega-ul li a.focus .menu-title{
+	color: #fff ;
+}
+#menusys_mega .menusub_mega .mega-module .moduletable_menu ul li {
+    border-bottom: 1px solid #515151;
+}
+#menusys_mega .megacol ul.mega-ul li {
+	 border-top: 1px solid #515151;
+
+}
+#menusys_mega .menusub_mega .mega-group {
+    background: url(../../images/border-title.png) repeat-x scroll left bottom;
+}
+#menusys_mega .menusub_mega .mega-group a .menu-title {
+ color: #fff;}
+ #menusys_mega > li {
+    background: url(../../images/top-vertical.png) no-repeat scroll right 50%;
+}
+#menusys_mega li:hover .menu-title,
+#menusys_mega li a:hover .menu-title,
+#menusys_mega li a:active .menu-title,
+#menusys_mega li a:focus .menu-title,
+#menusys_mega li a.active .menu-title,
+#menusys_mega li a.active:hover .menu-title,
+#menusys_mega li a.active:active .menu-title,
+#menusys_mega li a.active:focus .menu-title {
+	color:#ec8c83;
+}
+#menusys_mega li a.active .menu-title,
+#menusys_mega li a.active:hover .menu-title,
+#menusys_mega li a.active:active .menu-title,
+#menusys_mega li a.active:focus .menu-title {
+	color: #ec8c83;
+}
+#menusys_mega li.hasChild span.no-image,
+#menusys_mega li.hasChild a.active span.no-image {
+	display: block;
+	padding-right: 13px;
+	background: url(../../images/mega/arrow-submenu.png) no-repeat right 18px;
+} 
+
+/* MegaMenu Border
+--------------------------------------------------------- */
+#menusys_mega .level0 > .submenu-wrapper { background: url(../../images/arrow-menu.png) no-repeat 40px top scroll; padding-top: 5px;}
+#menusys_mega div.menusub_mega div.menusub_mega div.subarrowtop {
+	background: url(../../images/arrow-menu-left.png) no-repeat ;
+}
+#menusys_mega li.hover  ul.mega-ul a:hover .menu-title,
+#menusys_mega li.hasChild  ul.mega-ul a:hover .menu-title,
+#menusys_mega li.hasChild  ul.mega-ul a:active .menu-title,
+#menusys_mega li.hasChild  ul.mega-ul a:focus .menu-title,
+#menusys_mega li.hasChild  ul.mega-ul a.active:hover .menu-title{
+	color: #ec8c83;
+}
+#menusys_mega div.menucontent-wrapper .subwrap-inner{ border-left: 3px solid #b0392e;
+border-right: 3px solid #b0392e;}

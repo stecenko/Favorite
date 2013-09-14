@@ -1,0 +1,692 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+
+html, body, fieldset {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "DroidSansRegular";
+}
+body.fs1 {
+	font-size: 10px;
+	line-height: 16px;
+}
+body.fs2 {
+	font-size: 11px;
+	line-height: 17px;
+}
+body.fs3 {
+	font-size: 12px;
+	line-height: 18px;
+	background: #eee;
+}
+body.fs4 {
+	font-size: 13px;
+	line-height: 19px;
+}
+body.fs5 {
+	font-size: 14px;
+	line-height: 20px;
+}
+body.fs6 {
+	font-size: 15px;
+	line-height: 21px;
+}
+.wrap {
+	clear: both;
+	width: 100%;
+}
+a {
+	outline: none;
+	color: #111;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	color:#bfd76d;
+}
+/*  */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-size:12px;
+	color: #666;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+ul {
+	list-style: none;
+}
+img {
+	max-width:100%
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+/* PAGE AND CONTAINER STYLE --------*/
+#page-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;/*background: #0D0D0D; color: #fff;*/
+}
+#page-container-inner {
+	width:100%;
+}
+.leo-container {
+	margin: 0 auto;
+}
+/**
+ * TOP POST STYLE
+ */
+#leo-toppos, #leo-usertop1, #leo-usertop2, #leo-userbottom, #leo-userbottom1, #leo-userbottom2, #leo-userwrap7 {
+	margin: 0;
+	width: 100%;
+	clear: both;
+}
+#leo-showcase-bottom-inner, #leo-slideshow-inner, #leo-usertop1-inner, #leo-mainwrap-inner, #leo-userbottom-inner {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background: #fff;
+	padding: 20px 20px 0;
+	display: block;
+	overflow: hidden;
+}
+#leo-usertop1-inner {
+	padding-left:10px;
+	padding-right: 10px;
+}
+#leo-toppos-inner-inner, #leo-usertop1-inner-inner, #leo-usertop2-inner-inner, #leo-breadcrumbs-top-inner-inner, #leo-breadcrumbs-bottom-inner-inner, #leo-userbottom-inner-inner, #leo-userbottom1-inner-inner, #leo-userbottom2-inner-inner {
+	padding: 0;
+}
+#leo-toppos {
+	background-image: url(../images/default/bg-menu.png);
+	background-position: left top;
+	background-color: #303030;
+	background-repeat: repeat;
+	overflow: hidden;
+}
+#leo-toppos.bg_top0 {
+	background-image: url(../images/bgtop/bg_top0.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top1 {
+	background-image: url(../images/bgtop/bg_top1.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top2 {
+	background-image: url(../images/bgtop/bg_top2.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top3 {
+	background-image: url(../images/bgtop/bg_top3.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top4 {
+	background-image: url(../images/bgtop/bg_top4.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top5 {
+	background-image: url(../images/bgtop/bg_top5.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top6 {
+	background-image: url(../images/bgtop/bg_top6.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top7 {
+	background-image: url(../images/bgtop/bg_top7.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-toppos.bg_top8 {
+	background-image: url(../images/bgtop/bg_top8.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-userbottom2 {
+	background: url(../images/opacity-b.png) repeat;
+}
+#leo-toppos-inner {
+	padding: 0;
+}
+#leo-usertop1-inner {
+}
+#leo-userbottom1-inner {
+	padding: 0;
+	overflow: hidden;
+}
+/* BREADCRUMBS--------*/
+#leo-breadcrumbs-bottom, #leo-breadcrumbs-top {
+	height: 30px;
+}
+#leo-breadcrumbs-bottom .leo-container,  #leo-breadcrumbs-top .leo-container {
+	position: relative;
+}
+#leo-breadcrumbs-bottom-inner,  #leo-breadcrumbs-top-inner {
+	background: url(../images/default/bg-brea-right.png) no-repeat right bottom scroll;
+	margin-right: -10px;
+}
+#leo-breadcrumbs-bottom-inner-inner, #leo-breadcrumbs-top-inner-inner {
+	background: url(../images/default/bg-brea-left.png) no-repeat left bottom scroll;
+	margin-left: -10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+	height: 30px;
+	z-index: 10;
+	position: relative;
+}
+#leo-breadcrumbs-bottom-inner-inner .breadcrumbs,  #leo-breadcrumbs-top-inner-inner .breadcrumbs {
+	background: url(../images/default/bg-menu.png) repeat left top scroll #303030;
+}
+#leo-breadcrumbs-bottom .moduletable,  #leo-breadcrumbs-top .moduletable {
+	margin-bottom: 0;
+}
+/* COLSPAN -----------*/
+#leo-colspan1, #leo-colspan2 {
+	margin: 0;
+}
+#leo-colspan1-inner, #leo-colspan2-inner {
+	margin: 0 -10px;
+}
+/* MODULETABLE --------*/
+div.moduletable, div.moduletable_menu, div.moduletable_list-menu, div.moduletable_latest-news, div.moduletable_color, div.moduletable_tabs, div.module, div.module_menu, div.module_text, div.moduletable_blank {
+	clear: both;
+	margin: 0 0 15px 0;
+}
+div.moduletable_alpha {
+	clear: both;
+}
+div.moduletable_blank {
+	margin:0;
+	width:100%;
+	display:inline-block;
+}
+div.moduletable_blank div.leomodule {
+	padding:0;
+}
+div.modulecontent {
+	width:100%;
+	display:inline-block;
+	padding: 0;
+}
+div.hightlight-blue div.modulecontent {
+	padding: 0 10px;
+	width: auto;
+	display: block;
+}
+.leomodule {
+	padding: 0;
+	display: inline-block;
+	width:100%;
+}
+.blog > h2, .item-page h2, .mega-module .moduletable_menu h3, .moduletable_list-products h3, .moduletable h3, h3.moduletitle {
+	margin:0 0 10px;
+	padding-left: 0px;
+	color:#000;
+	font: normal 18px 'Lobster13Regular';
+	background: url(../images/default/border-title.png) repeat-x left bottom scroll;
+	padding-bottom: 5px;
+}
+h3.moduletitle span {
+}
+h3.title {
+	margin: 10px 0 0;
+	color:#fff;
+	font-size:16px;
+	font:bold 16px 'Lobster13Regular';
+	text-transform: uppercase;
+}
+#leo-mainwrap h3.moduletitle {
+}
+/* HEADER
+--------------------------*/
+#leo-header {
+	width: 100%;
+	display: inline-block;
+	background:#fff;
+}
+#leo-header-inner {
+	width: 100%;
+	padding: 20px 0;
+	margin:0;
+}
+/* LOGO ---------*/
+#leo-logo {
+	float: left;
+	width: 240px;
+}
+#leo-logo .leo-logo {
+	margin: 20px 0 5px;
+	display: block;
+}
+#leo-logo .leo-logo a {
+	display: block;
+	width: 190px;
+	height: 65px;
+	background: url(../images/default/logo.png) no-repeat 0 0;
+}
+#leo-logo .leo-logo a span {
+	display: none;
+}
+/* HEADER TOP-------*/
+#leo-header-top {
+	float: right;
+	position: relative;
+}
+/* TOP MENU ------*/
+#leo-time {
+	float:left;
+	width:30%;
+	color:#fff;
+	line-height:23px;
+	font-family: "DroidSansRegular";
+	font-style:italic;
+}
+#leo-topmenu {
+	float:left;
+	padding: 3px 0 8px;
+}
+#leo-topmenu .moduletable {
+	margin-bottom: 0;
+}
+#leo-topmenu ul.menu {
+	margin:5px 0 0;
+}
+#leo-topmenu ul.menu li {
+	display: inline-block;
+	line-height: 100%;
+	padding: 0 20px 0 10px;
+	float: left;
+	border-bottom: none;
+	font-family: "DroidSansRegular";
+	background:url(../images/top-vertical.png) no-repeat right 0;
+}
+#leo-topmenu ul.menu li:last-child {
+	background:none;
+}
+#leo-topmenu ul.menu li a {
+	display: inline;
+	color:#f5f5f5;
+	font-size: 13px;
+}
+#leo-topmenu ul.menu li a:hover {
+	color:#bfd76d;
+}
+/* SEARCH --------*/
+#leo-search {
+	float: right;
+}
+#leo-search div.search {
+	background:none;
+	width:100%;
+	display:inline-block;
+	border: 0px solid #3b2569;
+}
+#mod-search-searchword {
+	background: url(../images/default/icon-search.png) 95% 50% no-repeat scroll #111;
+	border-top: none;
+	border-bottom: none;
+	border-left: 1px solid #595959;
+	border-right: 1px solid #595959;
+	color:#ddd;
+	float:left;
+	height: 25px;
+	font-size:13px;
+	font-family: "DroidSansRegular";
+	border-radius: 0;
+	box-shadow: none;
+}
+.button {
+	background: #075f94 !important;
+	font:normal 17px 'Lobster13Regular';
+	text-transform: uppercase;
+}
+#leo-search .button {
+	padding:0;
+	margin:5px 10px;
+	height:11px;
+	width:11px;
+	float:right;
+	border: none;
+	background:url(../images/icon/search.png) no-repeat 0 0;
+}
+/* MAINMENU
+--------------------------*/
+#leo-mainmenu {
+	overflow: hidden;
+}
+#hot-sn{
+  position: absolute;
+  top: 0px;
+  left: -5500px;
+  }
+#leo-mainmenu-inner {
+	overflow: hidden;
+	clear: both;
+	display: block;
+	background: url(../images/default/bg-menu.png) repeat left top scroll #303030;
+	border-bottom: 5px solid #ddd;
+	padding: 0 15px;
+}
+#leo-responsivemenu {
+	display:none;
+}
+/* SLIDESHOW
+--------------------------*/
+#leo-slideshow {
+}
+#leo-slideshow-inner {
+	margin: 0;
+	color:#fff;
+}
+/* showcase bottom
+--------------------------*/
+#leo-showcase-bottom-inner {
+	background: #eee;
+	padding-top: 0;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+/*
+ * SPORTLIHT 
+ */
+ 
+.leo-usercol {
+	float: left;
+}
+.leo-box-inside {
+	padding: 0 10px;
+}
+#leo-mainwrap {
+	width:100%;
+	display:inline-block;
+}
+#leo-mainwrap-inner {
+	display:block;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.page-inset {
+	width:100%;
+	display: inline-block;
+}
+/*
+ * WIDTH, DIRECTION ALIGNMENT FOR ALL COLUMNS
+ */
+#leo-mainwrap, #leo-mainwrap-left, #leo-mainwrap-right, #leo-mainwrap-full {
+	width: 100%;
+	position: relative;
+}
+/* Create a default width for three 3 main column */
+#leo-left {
+	width: 20%;
+	float: left;
+}
+#leo-content {
+	width: 55%;
+	float: left;
+}
+#leo-right {
+	width: 25%;
+	float: right;
+}
+#leo-mainwrap-left #leo-content {
+	width: 75%;
+}
+#leo-mainwrap-right #leo-content {
+	width:75%
+}
+#leo-mainwrap-full #leo-content {
+	width: 100%;
+}
+#leo-left-inner, #leo-right-inner, #leo-content-inner {
+	margin: 0 10px;
+}
+/* Left Column */
+.leo-layout-clr #leo-content,
+.leo-layout-lrc #leo-content {margin: 0;}
+.leo-layout-lrc #leo-right {float: left;}
+.leo-layout-lrc #leo-content {float: right;}
+
+.leo-layout-clr #leo-right {float: right;}
+.leo-layout-clr #leo-left {float: right;}
+.leo-layout-clr #leo-content {float: left;}
+/* Right Column  */
+
+
+/* leo-blockbottom */
+#leo-blockbottom {
+	background-image: url(../images/default/bg-menu.png);
+	background-position: left top;
+	background-color: #111;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom0 {
+	background-image: url(../images/bgbottom/bg_bottom0.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom1 {
+	background-image: url(../images/bgbottom/bg_bottom1.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom2 {
+	background-image: url(../images/bgbottom/bg_bottom2.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom3 {
+	background-image: url(../images/bgbottom/bg_bottom3.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom4 {
+	background-image: url(../images/bgbottom/bg_bottom4.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom5 {
+	background-image: url(../images/bgbottom/bg_bottom5.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom6 {
+	background-image: url(../images/bgbottom/bg_bottom6.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom7 {
+	background-image: url(../images/bgbottom/bg_bottom7.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+#leo-blockbottom.bg_bottom8 {
+	background-image: url(../images/bgbottom/bg_bottom8.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+/* leo-userbottom1 */
+ #leo-userbottom1 {
+	background: url(../images/default/bg-footer.png) repeat-x left top scroll;
+}
+#leo-userbottom1 .moduletable,  #leo-userbottom1 .moduletable_menu {
+	margin: 15px 0;
+}
+#leo-userbottom1 .moduletable_color h3,  #leo-userbottom1 .moduletable h3,  #leo-userbottom1 .moduletable_menu h3 {
+	background: none;
+	color: #979797;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: none;
+	padding-bottom: 10px;
+}
+#leo-userbottom1 .leo-box-left, #leo-userbottom1 .leo-box-right {
+	width: 25% !important;
+}
+#leo-userbottom1 .leo-box-center {
+	width: 16.65% !important;
+}
+#leo-userbottom1-inner input.inputbox {
+	background: url(../images/default/bg-footer.png) repeat left top scroll;
+	box-shadow: none;
+	border: 1px solid #404040;
+	border-radius: 3px;
+	width: 90%;
+	color: #616161;
+}
+#leo-userbottom1-inner input.button {
+	background: url(../images/default/readmore.png) no-repeat left top scroll!important;
+	width:116px;
+	height: 37px;
+	line-height: 15px;
+	text-align: center;
+	font-family: 'DroidSansRegular';
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 0px 1px 1px #fbfcf6;
+	font-weight: bold;
+}
+/* FOOTER
+--------------------------*/
+#leo-footer {
+	width: 100%;
+	display: inline-block;
+	color:#9da0a8;
+	background: url(../images/default/bg-footer.png) repeat left top scroll;
+}
+#leo-footer-inner {
+	padding: 5px 0;
+	margin: 0 10px;
+	display:block;
+	overflow: hidden;
+}
+#leo-footer-menu {
+	float: right;
+	width: 50%;
+}
+#leo-copyright {
+	float: left;
+	width: 100%;
+	line-height: 45px;
+}
+#leo-copyright p:last-child {
+	line-height: 45px;
+	padding-right: 50px;
+}
+#leo-copyright p {
+	margin: 0;
+}
+#leo-copyright a {
+	color:#fff;
+}
+#leo-copyright a:hover {
+	color:#bfd76d;
+}
+#leo-footer ul.menu {
+	margin:0;
+	display:block;
+	text-align:right;
+}
+#leo-footer ul.menu li {
+	display:inline;
+	border-bottom:none;
+	display: inline;
+	padding:0;
+	background: none;
+	border-right: 1px solid #9d9c9f;
+}
+#leo-footer ul.menu li:last-child {
+	border-right: none;
+}
+#leo-footer ul.menu li a {
+	text-transform: none;
+	width:100%;
+	padding: 0 10px;
+	display:inline;
+	color:#b0b0ae;
+}
+#leo-footer ul.menu li a:hover {
+	background:none;
+	color:#fff;
+}
+/*category content*/
+.items-row .item, .items-leading .item {
+	border-bottom: 1px dotted #ddd;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.items-row .item h2, .items-leading .item h2 {
+	margin: 5px 0;
+	font-size: 14px;
+}
+.blog > h2, .item-page h2 {
+	font: normal 24px 'Lobster13Regular';
+}
+
+/***/
+
+body.pattern1{background-image:url('../images/patterns/pattern1.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern2{background-image:url('../images/patterns/pattern2.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern3{background-image:url('../images/patterns/pattern3.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern4{background-image:url('../images/patterns/pattern4.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern5{background-image:url('../images/patterns/pattern5.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern6{background-image:url('../images/patterns/pattern6.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern7{background-image:url('../images/patterns/pattern7.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern8{background-image:url('../images/patterns/pattern8.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern9{background-image:url('../images/patterns/pattern9.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern10{background-image:url('../images/patterns/pattern10.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern11{background-image:url('../images/patterns/pattern11.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern12{background-image:url('../images/patterns/pattern12.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern13{background-image:url('../images/patterns/pattern13.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern14{background-image:url('../images/patterns/pattern14.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern15{background-image:url('../images/patterns/pattern15.png');background-position: top left;background-repeat: repeat !important;}
+body.pattern16{background-image:url('../images/patterns/pattern15.png');background-position: top left;background-repeat: repeat !important;}

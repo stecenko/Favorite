@@ -1,0 +1,79 @@
+/*------------------------------------------------------------------------
+ # Leo Template Framework - 
+ # ------------------------------------------------------------------------
+ # author    LeoTheme
+ # copyright Copyright (C) 2010 leotheme.com. All Rights Reserved.
+ # @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Websites: http://www.leotheme.com
+ # Technical Support:  Forum - http://www.leotheme.com/forum.html
+-------------------------------------------------------------------------*/
+body.fs3 {
+ background: #333;}
+ #leo-logo .leo-logo a {
+    background: url(../images/logo.png) no-repeat scroll 0 0 ;
+}
+#leo-userbottom {
+ color: #fff;}
+#leo-showcase-bottom-inner,
+#leo-slideshow-inner,
+#leo-usertop1-inner,
+#leo-mainwrap-inner,
+#leo-userbottom-inner {
+border-left: 1px solid #000;
+ border-right: 1px solid #000;
+  background: #111;
+  }
+  #leo-toppos {
+    background: url(../images/bg-menu.png) repeat scroll left top #4a4a4a;
+}
+/* MODULES */
+.blog > h2,
+.item-page h2,
+.mega-module .moduletable_menu h3,
+.moduletable_list-products h3,
+.moduletable h3,
+h3.moduletitle {
+	 color:#fff;
+	 background: url(../images/border-title.png) repeat-x left bottom scroll;
+	}
+/* MAINMENU
+--------------------------*/
+#leo-mainmenu-inner { 
+  border-bottom: 5px solid #000;
+   background: url(../images/bg-menu.png) repeat left top scroll #4a4a4a;}
+
+/* BREADCRUMBS--------*/
+
+	 #leo-breadcrumbs-bottom-inner-inner  .breadcrumbs,
+  #leo-breadcrumbs-top-inner-inner  .breadcrumbs{
+   background: url(../images/bg-menu.png) repeat left top scroll #4a4a4a;}
+/* SEARCH --------*/
+#mod-search-searchword{
+ background: url(../images/icon-search.png) no-repeat scroll 95% 50% #666;
+	border-left: 1px solid #949494;
+	border-right: 1px solid #949494;
+	color:#999;
+}
+/* showcase bottom
+--------------------------*/
+#leo-showcase-bottom-inner {
+ background: #000;
+   border-bottom: 1px solid #000;
+   border-top: 1px solid #000;}
+   
+ /* leo-blockbottom */
+#leo-blockbottom {
+ background: url(../images/bg-footer-bottom.png) repeat left top scroll #111;}
+ 
+#leo-footer {
+    background: url(../images/bg-footer.png) repeat scroll left top;
+    color: #9DA0A8;
+}
+ /* leo-userbottom1 */
+  #leo-userbottom1-inner input.button { 
+	  background: url(../images/readmore.png) no-repeat left top scroll!important;
+	  }
+	  #leo-userbottom1 {
+    background: url(../images/bg-userbottom.png) repeat-x scroll left top;
+}
+#leo-copyright a:hover{color:#ec8c83;}

@@ -1,0 +1,31 @@
+/** 
+# The real design - December 2011 template (for Joomla 1.6/1.7)
+ */
+/*----------------------------------------------------------------------
+	Common Elements
+----------------------------------------------------------------------*/
+
+/* --- Global K2 container --- */
+.itemListView .componentheading{  background: url(../images/border-title.png) repeat-x scroll left bottom ;
+    color: #FFFFFF;}
+
+.itemHeader .itemTitle, .genericItemTitle, .catItemHeader .catItemTitle {
+ color: #fff;
+ }
+ .itemHeader .itemTitle {
+    background: url(../images/border-title.png) repeat-x scroll left bottom ;
+}
+span.itemImage img, span.catItemImage img { border:1px solid #333;
+ background: #222;}
+ .itemHitsTwitter, .itemCategory, .catItemTagsBlock, .itemTagsBlock, .itemSocialSharing {
+  border-top:1px solid #333;}
+  .itemRelated ul li, .itemAuthorLatest ul li {
+   border-top: 1px dotted #333;}
+   .itemAuthorBlock, .userBlock, .latestItemsCategory {
+   background: #222;
+  border: 1px solid #333;}
+  .itemNavigation {
+  border-color :#3fa5c3;}
+  .itemCommentsForm > h3 {
+   color: #ddd;
+   }
